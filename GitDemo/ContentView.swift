@@ -18,7 +18,7 @@ struct ContentView: View {
                         .font(.system(size: 16, weight: .bold))
                         .background(LinearGradient(gradient: Gradient (colors: [Color(UIColor(red: 0.98, green: 0.19, blue: 0.00, alpha: 1.00)), Color(UIColor(red: 0.98, green: 0.19, blue: 0.00, alpha: 1.00))]), startPoint: .leading, endPoint: .trailing))
                         .clipShape(RoundedRectangle(cornerRadius: 10))
-                        .foregroundColor(.green)
+                        .foregroundColor(.white)
                         .padding(.horizontal)
                 }
             }.navigationTitle("Xcode and Git")
