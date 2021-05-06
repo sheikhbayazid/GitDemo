@@ -8,14 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var isPresented = false
-    
     var body: some View {
         NavigationView {
             VStack {
-                Button(action: {
-                    isPresented.toggle()
-                }, label: {
+                NavigationLink(destination: ModalView()) {
                     Text("Profile")
                         .frame(maxWidth: .infinity)
                         .frame(height: 50)
@@ -24,12 +20,8 @@ struct ContentView: View {
                         .clipShape(RoundedRectangle(cornerRadius: 10))
                         .foregroundColor(.white)
                         .padding(.horizontal)
-                    
-                })
+                }
             }.navigationTitle("Xcode and Git")
-            .sheet(isPresented: $isPresented, content: {
-                ModalView()
-            })
         }
     }
 }
