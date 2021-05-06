@@ -11,6 +11,7 @@
 		4082C17A264411B40096728F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4082C179264411B40096728F /* ContentView.swift */; };
 		4082C17C264411B90096728F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4082C17B264411B90096728F /* Assets.xcassets */; };
 		4082C17F264411B90096728F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4082C17E264411B90096728F /* Preview Assets.xcassets */; };
+		4082C1872644143F0096728F /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4082C1862644143F0096728F /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4082C17B264411B90096728F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4082C17E264411B90096728F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4082C180264411B90096728F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4082C1862644143F0096728F /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				4082C177264411B40096728F /* GitDemoApp.swift */,
 				4082C179264411B40096728F /* ContentView.swift */,
+				4082C1862644143F0096728F /* ModalView.swift */,
 				4082C17B264411B90096728F /* Assets.xcassets */,
 				4082C180264411B90096728F /* Info.plist */,
 				4082C17D264411B90096728F /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4082C1872644143F0096728F /* ModalView.swift in Sources */,
 				4082C17A264411B40096728F /* ContentView.swift in Sources */,
 				4082C178264411B40096728F /* GitDemoApp.swift in Sources */,
 			);
